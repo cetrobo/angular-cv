@@ -1,0 +1,78 @@
+
+ <!--Section header -->
+<header ng-controller="HomeCtrl">
+
+  <div class="container">
+    <div id="content"></div>
+    <h3 class="post-logo animated fadeIn">{{postlogo}}</h3>
+    <h1 class="post-behind">{{postbehind}} </h1>
+    <h2 class="title animated fadeInLeft">{{title1}}</h2>
+    <h2 class="title animated fadeInLeft">{{title2}}</h2>
+  </div>
+</header>
+<!--
+ <!--Section profile -->
+  <section ng-controller="Section1Controller">
+      <div when-visible="animateElementIn" when-not-visible="animateElementOut" class="hidden">
+          <div class="container">
+            <h3 class="section-title">{{titresection}}</h3>
+            <div class="line-section"></div>
+            <div class="section-thumb"><img ng-src="../assets/images/avatar.jpg">
+              <p class="section-contenue">{{paragraphe}}</p>
+            </div>
+          </div>
+      </div>    
+  </section>
+
+  <!--Section profile -->
+     <section ng-controller="Section2Controller" class="exp">
+      <div when-visible="animateElementIn" when-not-visible="animateElementOut" class="hidden">
+        <div class="container">
+          <h1 class="title-section2">{{ansexp}}</h1>
+          <h3 class="exp-title">{{exptitle}}</h3>
+          <div class="line-section2"></div>
+          <p class="aboutme-section2">{{paragraphe2}}</p>
+        </div>
+     </div> 
+    </section>
+
+
+   <!--Section profile -->
+   
+     <section ng-controller="Section3Controller" class="work">
+       <div when-visible="animateElementIn" when-not-visible="animateElementOut" class="hidden">
+              <div class="container">
+                <h2 class="title-work">{{titlework}}</h2>
+                <div class="border-works"> </div>
+                <h4 class="first-title">{{firsttitle}}</h4>
+                <p class="sujet-work">{{sujetwork}}</p>
+                <p class="sujet-works"> {{sujetworks}}</p>
+                <div id="thumb"><img ng-src="../assets/images/tp.png" class="thumbs"><img ng-src="../assets/images/ap.png" class="thumb"></div>
+                <div class="title-date">{{titledate}}</div>
+              </div>
+         </div>     
+    </section>
+
+
+
+
+
+
+
+     <!--footer  -->
+    <footer ng-controller="FoooterController">
+     <div when-visible="animateElementIn" when-not-visible="animateElementOut" class="hidden">
+      <div class="container">
+        <h2 class="msg-title">{{msgtitle}}</h2>
+        <div id="social">
+          <ul class="media">
+            <li><a href="#">{{facebook}}</a></li>
+            <li><a href="#">{{google}}</a></li>
+            <li><a href="#">{{linkedin}} </a></li>
+          </ul>
+        </div>
+        <div id="thanks">
+          <h1>{{thanks}}</h1>
+        </div><a href="#" class="scrollup"><img src="../assets/images/p.png"></a>
+    </div>    
+    </footer>

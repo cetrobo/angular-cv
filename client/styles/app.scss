@@ -1,0 +1,291 @@
+@import 'variables';
+
+/* global style */
+@import 'fonts';
+
+body{
+
+    color:$primary-color;
+    background-color:$background-color;
+    margin:0px;
+    padding: 0px;
+    font-family:arimo;
+  	
+}
+
+p{
+
+font-family: sans-serif;
+
+}
+section {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+img {
+  width: 40%;
+  
+}
+
+
+
+/* style for header */
+
+header {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  #content {
+    padding-top: 45px;
+  }
+  .post-logo {
+    font-size: $header-size;
+    margin: 0px;
+ 
+  }
+  .post-behind {
+    font-size: 550px;
+    margin: auto;
+    text-align: center;
+    margin-top: -73px;
+    opacity: 0.2;
+    z-index: -100;
+  }
+  .title {
+    font-size: 80px;
+    margin: 0 auto;
+    position: relative;
+    top: -502px;
+    left: -4px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/*  style for Section profil*/
+
+
+
+  h3.section-title {
+    font-size: 28px;
+    line-height: 5;
+    margin-left: -1px;
+    margin-top: -102px;
+    -webkit-animation-duration: 2s !important;
+}
+
+
+.line-section {
+  border: $line-section-bord;
+  width: $line-section-width;
+  -webkit-animation-duration: 4s !important;
+ 
+}
+
+
+.section-thumb img {
+  float: right;
+  margin-top: -156px;
+  opacity: 0.2;
+  -webkit-animation-duration: 4s !important;
+}
+
+p.section-contenue {
+    line-height: 2;
+    width: 45%;
+    margin-left: 100px;
+    margin-top: -15px;
+    -webkit-animation-duration: 4s !important;
+}
+
+
+
+
+
+
+
+
+
+
+/*  style for Section  experience */
+
+section.exp {
+    position: relative;
+    margin: 0;
+    padding: 0px;
+    padding-bottom: 100px;
+    
+
+
+    .title-section2 {
+    font-size: 150px;
+    padding-top: 150px;
+    -webkit-animation-duration: 1s !important;
+}
+
+.exp-title {
+    margin: -229px 1px 1px 117px;
+    font-size: 33px;
+    -webkit-animation-duration: 3s !important;
+}
+
+.line-section2 {
+    border: 1px solid white;
+    width: 63px;
+    margin: 72px 0px 0px 116px;
+   -webkit-animation-duration: 1s !important;
+}
+
+.aboutme-section2 {
+    width: 70%;
+    margin: -11px 0px 0px 250px;
+    line-height: 2;
+    -webkit-animation-duration: 3s !important;
+}
+
+}
+
+
+
+
+/*  style for Section  work */
+.work {
+  
+    
+  .title-work {
+    font-size: 39px;
+    margin-left: 5px;
+    -webkit-animation-duration: 3s !important;
+    }
+
+  .border-works {
+    border: $line-section-bord;
+    width: $line-section-width;
+    width: 63px;
+    margin-left: 360px;
+     -webkit-animation-duration: 5s !important;
+  }
+  .sujet-work {
+  margin-left: 378px;
+  font-family: 'Arimo';
+  text-align: center; 
+   -webkit-animation-duration: 4s !important;
+}
+  .first-title {
+    text-align: center;
+    margin-left: 70px;
+    margin-top: -15px;
+     -webkit-animation-duration: 7s !important;
+  }
+  #thumb {
+    opacity: 0.2;
+    -webkit-animation-duration: 2s !important;
+
+  }
+  #thumb .thumbs {
+    width: 25%;
+    -webkit-animation-duration: 2s !important;
+  }
+
+  .sujet-work {
+  margin-left: 382px;
+  font-family: 'Arimo';
+  text-align: center;
+}
+p.sujet-works {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 460px;
+  line-height: 2em;
+}
+
+#thumb img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+}
+.title-date {
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    font-family: 'Arimo';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 50%;
+    font-weight: 5;
+    margin: -11px 1px 1px -405px;
+}
+
+
+/*  style for footer */
+footer {
+    padding-top: 150px;
+
+
+.msg-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#social {
+    margin-top: 80px;
+  
+
+}
+
+ul li {
+    list-style: none;
+    padding-top: 26px;
+
+ 
+  
+ }
+
+  li a {
+    list-style: none;
+    text-decoration: line-through;
+    font-weight: 600;
+    color: white !important;
+    
+
+  }
+
+ #thanks h1 {
+    margin: 0 auto;
+    float: right;
+    font-size: 100px;
+}
+
+a.scrollup img {
+    width: 7%;
+    float: right;
+    position: relative;
+    left: 350px;
+    top: -50px;
+ }
+}
+
+
+/*  style for animation */
+
+
+.hidden {
+  visibility: hidden;
+}
