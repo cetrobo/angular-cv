@@ -4,7 +4,6 @@ var express = require('express');
 var chalk = require('chalk');
 var config = require('./config/environment');
 var mongoose = require('mongoose');
-var $          = require("jquery");
 
 mongoose.connect(config.mongo.uri, config.mongo.options);
 

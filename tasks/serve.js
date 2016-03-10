@@ -9,7 +9,7 @@ var ripe       = require('ripe');
 var nodemon    = require('gulp-nodemon');
 var open       = require('gulp-open');
 var livereload = require('gulp-livereload');
-var $          = require("jquery");
+
 
 var config = require('../server/config/environment');
 
