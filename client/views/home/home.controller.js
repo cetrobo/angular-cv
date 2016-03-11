@@ -38,19 +38,7 @@ apps.controller('Section1Controller', function ($scope,$log) {
     }
   };
 
-  $scope.animateElementOut = function($el) {
-    $el.addClass('hidden');
-
-     if($el){
-
-    $('.section-title').removeClass('animated fadeInLeft');
-    $('.line-section').removeClass('animated fadeInLeft');
-    $('.section-contenue').removeClass('animated fadeIn');
-    $('.section-thumb').removeClass('animated fadeIn');
-   
-    }
-    
-  };
+  
   });
 
 
@@ -73,19 +61,7 @@ $scope.animateElementIn = function($el) {
     }
   };
 
-  $scope.animateElementOut = function($el) {
-    $el.addClass('hidden');
 
-     if($el){
-
-   $('.title-section2').removeClass('animated fadeInLeft');
-    $('.exp-title').removeClass('animated fadeIn');
-    $('.line-section2').removeClass('animated fadeInLeft');
-    $('.aboutme-section2').removeClass('animated fadeIn');
-   
-    }
-    
-  };
 
 });
 
@@ -115,22 +91,6 @@ $scope.animateElementIn = function($el) {
     }
   };
 
-  $scope.animateElementOut = function($el) {
-    $el.addClass('hidden');
-
-     if($el){
-
-    $('.title-work').removeClass('animated fadeInLeft');
-    $('.border-works').removeClass('animated fadeIn');
-    $('.first-title').removeClass('animated fadeIn');
-    $('.sujet-work').removeClass('animated fadeIn');
-    $('.sujet-works').removeClass('animated fadeIn');
-    $('.thumbs').removeClass('animated fadeInLeft');
-    $('.thumb').removeClass('animated fadeInRight');
-   
-    }
-    
-  };
 
 
 });
@@ -158,19 +118,7 @@ apps.controller("FoooterController",function($scope,$log){
     }
   };
 
-  $scope.animateElementOut = function($el) {
-    $el.addClass('hidden');
 
-     if($el){
-
-    $('.msg-title').removeClass('animated fadeInLeft');
-    $('.media').removeClass('animated fadeIn');
-    $('#thanks').removeClass('animated fadeIn');
-  
-   
-    }
-    
-  };
 
  $('.scrollup').click(function () {
         $("html, body").animate({
