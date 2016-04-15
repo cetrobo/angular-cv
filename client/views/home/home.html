@@ -1,10 +1,10 @@
 
  <!--Section header -->
-<header ng-controller="HomeCtrl">
+<header>
 
   <div class="container">
     <div id="content"></div>
-    <h3 class="post-logo animated fadeIn">{{postlogo}}</h3>
+    <h3 class="post-logo" >{{postlogo}}</h3>
     <h1 class="post-behind">{{postbehind}} </h1>
     <h2 class="title animated fadeInLeft">{{title1}}</h2>
     <h2 class="title animated fadeInLeft">{{title2}}</h2>
@@ -12,26 +12,26 @@
 </header>
 <!--
  <!--Section profile -->
-  <section ng-controller="Section1Controller">
-      <div when-visible="animateElementIn" class="hidden">
+  <section>
+      <div class="hidden">
           <div class="container">
-            <h3 class="section-title">{{titresection}}</h3>
-            <div class="line-section"></div>
-            <div class="section-thumb"><img ng-src="../assets/images/avatar.jpg">
-              <p class="section-contenue">{{paragraphe}}</p>
-            </div>
+            <h3 class="section-title" when-visible when-visible-class="fadeInUp visible">{{titresection}}</h3>
+            <div class="line-section" when-visible when-visible-class="fadeInLeft visible"></div>
+            <div class="section-thumb" ><img  ng-src="../assets/images/avatar.jpg"> </div>
+              <p class="section-contenue" when-visible when-visible-class="fadeInUp visible">{{paragraphe}}</p>
+           
           </div>
       </div>    
   </section>
 
   <!--Section profile -->
-     <section ng-controller="Section2Controller" class="exp">
-      <div when-visible="animateElementIn"  class="hidden">
+     <section  class="exp">
+      <div   class="hidden">
         <div class="container">
-          <h1 class="title-section2">{{ansexp}}</h1>
-          <h3 class="exp-title">{{exptitle}}</h3>
-          <div class="line-section2"></div>
-          <p class="aboutme-section2">{{paragraphe2}}</p>
+          <h1 class="title-section2" when-visible when-visible-class="fadeInLeft visible">{{ansexp}}</h1>
+          <h3 class="exp-title" when-visible when-visible-class="fadeInUp visible">{{exptitle}}</h3>
+          <div class="line-section2" when-visible when-visible-class="fadeInLeft visible"></div>
+          <p class="aboutme-section2" when-visible when-visible-class="fadeIn visible">{{paragraphe2}}</p>
         </div>
      </div> 
     </section>
@@ -39,40 +39,35 @@
 
    <!--Section profile -->
    
-     <section ng-controller="Section3Controller" class="work">
-       <div when-visible="animateElementIn"  class="hidden">
+     <section class="work">
+       <div class="hidden">
               <div class="container">
-                <h2 class="title-work">{{titlework}}</h2>
-                <div class="border-works"> </div>
-                <h4 class="first-title">{{firsttitle}}</h4>
-                <p class="sujet-work">{{sujetwork}}</p>
-                <p class="sujet-works"> {{sujetworks}}</p>
+                <h2 class="title-work" when-visible when-visible-class="fadeInLeft visible">{{titlework}}</h2>
+                <div class="border-works" when-visible when-visible-class="fadeInLeft visible"> </div>
+                <h4 class="first-title" when-visible when-visible-class="fadeInUp visible">{{firsttitle}}</h4>
+                <p class="sujet-work" when-visible when-visible-class="fadeInLeft visible">{{sujetwork}}</p>
+                <p class="sujet-works" when-visible when-visible-class="fadeInLeft visible"> {{sujetworks}}</p>
                 <div id="thumb"><img ng-src="../assets/images/tp.png" class="thumbs"><img ng-src="../assets/images/ap.png" class="thumb"></div>
-                <div class="title-date">{{titledate}}</div>
+                <div class="title-date" when-visible when-visible-class="fadeInLeft visible" >{{titledate}}</div>
               </div>
          </div>     
     </section>
 
 
-
-
-
-
-
      <!--footer  -->
-    <footer ng-controller="FoooterController">
-     <div when-visible="animateElementIn"  class="hidden">
+    <footer>
+     <div>
       <div class="container">
-        <h2 class="msg-title">{{msgtitle}}</h2>
+        <h2 class="msg-title" when-visible when-visible-class=" animated fadeInLeft visible">{{msgtitle}}</h2>
         <div id="social">
-          <ul class="media">
+          <ul class="media" when-visible when-visible-class=" animated fadeInUp visible">
             <li><a href="#">{{facebook}}</a></li>
             <li><a href="#">{{google}}</a></li>
             <li><a href="#">{{linkedin}} </a></li>
           </ul>
         </div>
         <div id="thanks">
-          <h1>{{thanks}}</h1>
+          <h1 when-visible when-visible-class="animated fadeIn visible">{{thanks}}</h1>
         </div><a href="#" class="scrollup"><img src="../assets/images/p.png"></a>
     </div>    
     </footer>

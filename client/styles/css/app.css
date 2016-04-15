@@ -61,6 +61,9 @@ h3.section-title {
   margin-top: -102px;
   -webkit-animation-duration: 2s !important; }
 
+ul.media{
+
+}
 .line-section {
   border: 1px solid white;
   width: 63px;
@@ -70,7 +73,8 @@ h3.section-title {
   float: right;
   margin-top: -156px;
   opacity: 0.2;
-  -webkit-animation-duration: 4s !important; }
+  -webkit-animation-duration: 4s !important;
+ }
 
 p.section-contenue {
   line-height: 2;
@@ -177,11 +181,13 @@ footer {
   footer ul li {
     list-style: none;
     padding-top: 26px; }
+
   footer li a {
     list-style: none;
     text-decoration: line-through;
     font-weight: 600;
-    color: white !important; }
+    color: white !important;
+    -webkit-animation-duration: 7s !important; }
   footer #thanks h1 {
     margin: 0 auto;
     float: right;
@@ -194,5 +200,3 @@ footer {
     top: -50px; }
 
 /*  style for animation */
-.hidden {
-  visibility: hidden; }
